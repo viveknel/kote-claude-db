@@ -14,6 +14,19 @@ Book: *Kindred of the East: The Relentless Age* (fan-published via Storytellers 
 
 This book is part of the **Kindred of the East library** (see the top-level `library_index.md` and `README.md`), but unlike this library's other five books, it is **not the same continuity**. It's a fan-made reimagining that renames the species ("Hungry Dead," not "Kuei-jin"), replaces the two-soul Hun/P'o system with four Virtues, restructures the Dharmas entirely, and gives "the Quincunx" a different history (a 1449-1979 empire toppled in 1979) than the original line's Quincunx (a 1304 CE treaty-born institution still standing in the modern nights). It also runs on V20 rules rather than the original *Vampire* rules the rest of the library assumes. See `book_index.md`'s "Important" section for the full list of contradictions before treating anything in this bundle as consistent with `kote-core`, `kote-companion`, `kote-shadow-war`, `kote-1000-hells`, or `kote-blood-silk`.
 
+**Same author as *In the Realm of Gods and Dreams*.** This book's
+credits (p.4) read "Written By: hsienfan / Developed By: hsienfan, with
+assistance from RPGnet." *In the Realm of Gods and Dreams* — a separate
+fan-made Changeling: The Dreaming supplement, indexed in a different
+library — carries the matching credit "Written by: Sebastian Noh
+(Hsienfan) ... Developed by: Sebastian Noh, with assistance from
+RPGnet," plus the same collaborators (Coco Vanille, Tommy Lee). That
+book's own Introduction even cites this book's Storytelling chapter by
+name for cultural-sensitivity guidance, and both books independently
+use "Hungry Dead" for their vampire-equivalent beings. Together this is
+strong internal evidence that "hsienfan" and "Sebastian Noh" are the
+same author across both books.
+
 ## Page-numbering convention (read before citing page numbers)
 
 The source PDF is a **2-page-spread export**: 100 PDF pages, each rendered as two printed book pages side by side (printed pages run 1-197ish; PDF pages 1-3 are unnumbered front matter). Splitting each spread into its two individual pages during extraction proved unreliable for this file (its own internal 2-column layouts on many single pages made automated left/right cropping bleed content across the boundary), so **`book_chunks.db` stores one `page` value per spread — the lower/even printed page number** — and that entry's text can contain material from both that page and the next (odd) one.
